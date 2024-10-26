@@ -1,0 +1,73 @@
+h1{
+	margin: 0;
+	padding: 40px;
+	font-family: sans-serif;
+	text-decoration: underline;
+	color: navy;
+}
+
+img{
+	width: 350px;
+	height: 300px;
+}
+
+body{
+	margin: 0;
+	padding-bottom: 30px;
+	font-family: sans-serif;
+	background-image: url("Hospital_Bed.jpg");
+	background-color: lightblue;
+	color: navy;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	background-image: linear-gradient(blue, lightblue);
+}
+
+li {
+	list-style-type: none;
+	text-align: center;
+}
+
+li a{
+	float: left;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	color: lightblue;
+}
+
+li a:hover{
+	color: blue;
+	text-shadow: 2px 2px 2px darkgray;
+	background: lightblue;
+}
+
+li a:active{
+	color: red;
+}
+
+.choice {
+	float: none;
+	font-weight: bold;
+	line-height: 40px;
+	color: darkred;
+}
+
+.choice:visited{
+	color: mediumvioletred;
+}
+
+.choice:hover{
+	color: red;
+	background: skyblue;
+}
+
+.choice:active{
+	color: darkorange;
+}
